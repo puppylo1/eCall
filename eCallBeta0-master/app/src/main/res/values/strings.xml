@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">eCallBeta0</string>
+    <string name="gongren">工人</string>
+    <string name="banzuzhang">班组长</string>
+    <string name="laowugongsi">劳务公司</string>
+    <string name="shigongdanwei">施工单位</string>
+</resources>

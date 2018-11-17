@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="公司名称"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+        <EditText
+            android:id="@+id/edit_company_name"
+            android:hint="请输入公司全称"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="公司类型"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+        <EditText
+            android:id="@+id/edit_company_type"
+            android:hint="国有/私营"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="公司规模"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"/>
+        <EditText
+            android:id="@+id/edit_company_scale"
+            android:hint="请输入公司人数"
+            android:gravity="left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="7"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="公司介绍"
+        android:gravity="left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_company_disc"
+        android:hint="请简要介绍公司及之前完成的工程情况"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"/>
+
+    <TextView
+        android:text="上传营业执照"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_company_file_qualify"
+            android:text="选择文件"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text_company_file_qualify"
+            android:text="未选择任何文件"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_next_company"
+        android:text="下一步"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
